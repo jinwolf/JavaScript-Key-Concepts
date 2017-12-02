@@ -10,3 +10,5 @@ let name = function getName(first, last) {
 }
 
 console.log(name('Jin', 'Lee'));
+console.log(name.prototype);
+console.log(name.__proto__);
